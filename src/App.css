@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+ background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Montserrat', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.title{
+  margin: 10px 0 25px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.react-calendar{
+  width: 100%;
+  min-height: 300px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.react-calendar span {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform:capitalize;
+}
+
+
+
